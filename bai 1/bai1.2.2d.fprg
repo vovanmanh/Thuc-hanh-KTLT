@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bai1.5"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 01:34:45 SA"/>
+        <attribute name="created" value="TE9RO0xBUFRPUC1BS004QkNPTDsyMDI1LTExLTAzOzA4OjE5OjExIENIOzI1NjY="/>
+        <attribute name="edited" value="TE9RO0xBUFRPUC1BS004QkNPTDsyMDI1LTEyLTAyOzAxOjM0OjQ1IFNBOzI7MjY4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vien:Vo Van Manh&quot;" newline="True"/>
+            <output expression="&quot;MSV:245752021610011&quot;" newline="True"/>
+            <declare name="Canhday" type="Real" array="False" size=""/>
+            <declare name="Chieucao" type="Real" array="False" size=""/>
+            <declare name="Dientich" type="Real" array="False" size=""/>
+            <output expression="&quot;Nhap do dai canh day cua tam giac&quot;" newline="True"/>
+            <input variable="Canhday"/>
+            <output expression="&quot;Nhap chieu cao tuong ung voi canh day&quot;" newline="True"/>
+            <input variable="Chieucao"/>
+            <assign variable="Dientich" expression="(Canhday*Chieucao)/ 2"/>
+            <output expression="&quot;Dien tich cua tam giac la&quot;&amp;&#13;&#10;Dientich" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
