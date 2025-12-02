@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bai1.2.2c"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 01:40:51 CH"/>
+        <attribute name="created" value="TE9RO0xBUFRPUC1BS004QkNPTDsyMDI1LTEyLTAyOzAxOjMzOjM1IENIOzI1NjE="/>
+        <attribute name="edited" value="TE9RO0xBUFRPUC1BS004QkNPTDsyMDI1LTEyLTAyOzAxOjQwOjUxIENIOzE7MjY2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh Vi&#234;n:V&#245; V&#259;n M&#7841;nh&quot;" newline="True"/>
+            <output expression="&quot;MSV:245752021610011&quot;" newline="True"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;input the radius of the circle&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Area is &quot;&amp;Circle(x)" newline="True"/>
+        </body>
+    </function>
+    <function name="Circle" type="Real" variable="Area">
+        <parameters>
+            <parameter name="Radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <assign variable="Area" expression="Pi*Radius^2"/>
+        </body>
+    </function>
+</flowgorithm>
