@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bai1.2.2b"/>
+        <attribute name="authors" value="LOQ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 01:33:15 CH"/>
+        <attribute name="created" value="TE9RO0xBUFRPUC1BS004QkNPTDsyMDI1LTEyLTAyOzAxOjI4OjEyIENIOzI1NjA="/>
+        <attribute name="edited" value="TE9RO0xBUFRPUC1BS004QkNPTDsyMDI1LTEyLTAyOzAxOjMzOjE1IENIOzE7MjY2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh Vi&#234;n :V&#245; V&#259;n M&#7841;nh&quot;" newline="True"/>
+            <output expression="&quot;MSV:245752021610011&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n == 1">
+                    <then>
+                        <output expression="&quot;One bottle of beer on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp; &quot; bottles of beer on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
